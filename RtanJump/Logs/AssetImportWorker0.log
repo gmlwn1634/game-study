@@ -1,0 +1,138 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1083; Version 2009; 64bit' Language: 'ko' Physical Memory: 8081 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gmlwn/Desktop/Folder/programming/game-study/RtanJump
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58585
+Successfully changed project path to: C:/Users/gmlwn/Desktop/Folder/programming/game-study/RtanJump
+C:/Users/gmlwn/Desktop/Folder/programming/game-study/RtanJump
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 222.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gmlwn/Desktop/Folder/programming/game-study/RtanJump/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   26.21.14.4223
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005384 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 137.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.105 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 137.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.308 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 5.897300 ms (FindLiveObjects: 0.521200 ms CreateObjectMapping: 0.219300 ms MarkObjects: 4.847200 ms  DeleteObjects: 0.306700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Image/Character/spartan_sheet.png
+  artifactKey: Guid(f72d4a3e935769c409626fae53bd9917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Character/spartan_sheet.png using Guid(f72d4a3e935769c409626fae53bd9917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46a21640515d03975611229150eea71') in 0.404759 seconds
+  Import took 0.412405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.069721 seconds.
+  path: Assets/Prefab/Character/rtan_playable.prefab
+  artifactKey: Guid(c9e38815c553faa4496273f8bad11787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character/rtan_playable.prefab using Guid(c9e38815c553faa4496273f8bad11787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef60247acd7e812d2864dab2c373396') in 0.188583 seconds
+  Import took 0.196181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 465.925610 seconds.
+  path: Assets/Prefab/Character/rtan_playable.prefab
+  artifactKey: Guid(c9e38815c553faa4496273f8bad11787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character/rtan_playable.prefab using Guid(c9e38815c553faa4496273f8bad11787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd405fd55236954fd2c3cc37ac96fc1') in 0.037370 seconds
+  Import took 0.047281 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.148 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 6.840100 ms (FindLiveObjects: 0.880900 ms CreateObjectMapping: 0.491800 ms MarkObjects: 5.102200 ms  DeleteObjects: 0.360500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.230198 seconds.
+  path: Assets/Prefab/Character/rtan_playable.prefab
+  artifactKey: Guid(c9e38815c553faa4496273f8bad11787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character/rtan_playable.prefab using Guid(c9e38815c553faa4496273f8bad11787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecc3e1aa5408e15d42d5629cb0d6e44') in 0.176743 seconds
+  Import took 0.183628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.351194 seconds.
+  path: Assets/Rtan.cs
+  artifactKey: Guid(cc0c170216c1867478bb05c85df1ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rtan.cs using Guid(cc0c170216c1867478bb05c85df1ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad1d57152c301f460ec60b4097d8f3e') in 0.010808 seconds
+  Import took 0.026417 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
