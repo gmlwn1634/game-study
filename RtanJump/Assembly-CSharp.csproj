@@ -55,7 +55,9 @@
   <ItemGroup>
     <Compile Include="Assets\Rtan.cs" />
     <Compile Include="Assets\CharacterMove.cs" />
+    <Compile Include="Assets\EnemySaurus.cs" />
     <Compile Include="Assets\CharacterJump.cs" />
+    <Compile Include="Assets\CharacterDamage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
