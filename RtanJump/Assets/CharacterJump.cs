@@ -5,6 +5,9 @@ using UnityEngine;
 public class CharacterJump : MonoBehaviour
 {
     public Rigidbody2D rigid;
+    public AudioClip audioClip;
+    public AudioSource audioSource;
+
     public float jumpHeight;
     int jumpCount = 0;
     int jumpLimit = 2;
@@ -33,6 +36,10 @@ public class CharacterJump : MonoBehaviour
                 enemy.OnDamage();
                 rigid.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
 
+                // 효과음 재생
+                audioSource.clip = audioClip;
+                audioSource.Play();
+              
                 break;
 
         }
