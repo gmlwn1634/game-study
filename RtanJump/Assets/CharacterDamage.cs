@@ -15,16 +15,12 @@ public class CharacterDamage : MonoBehaviour
         collider1.enabled = false;
         collider2.enabled = false;
         renderer.color = new Color(1, 1, 1, 0.5f);
+        GameManager.I.GameOver();
     }
-
-
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "enemy")
-        {
+        if (collision.gameObject.tag == "enemy")
             onDamage();
-        }
     }
 }

@@ -22,7 +22,20 @@ public class CharacterJump : MonoBehaviour
     // unity 기본 제공 함수
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collider2D.gameObject.tag == "ground")
-            jumpCount = 0;
+        string tag = collider2D.gameObject.tag;
+        switch (tag)
+        {
+            case "ground":
+                jumpCount = 0;
+                break;
+            case "enemy":
+                EnemySaurus enemy = collider2D.gameObject.GetComponent<EnemySaurus>();
+                enemy.OnDamage();
+                rigid.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
+
+                break;
+
+        }
+
     }
 }
