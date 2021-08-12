@@ -128,7 +128,7 @@ MonoBehaviour:
   trans: {fileID: 8084044026320368439}
   rigid: {fileID: -2135616781451298018}
   renderer: {fileID: 4822449112370290012}
-  moveSpeed: 2
+  moveSpeed: 4
 --- !u!114 &-1139636730008195072
 MonoBehaviour:
   m_ObjectHideFlags: 0
